@@ -1,0 +1,439 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+/* start of home page */
+li, a{
+    font-family: 'Lora', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+button{
+    font-family: 'Lora', sans-serif;
+    font-size: 16px;
+    background-color:rgb(111,58,88);
+    text-decoration: none;
+    border-radius: 2px;
+    border: none;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.wrapper{
+    margin: auto;
+}
+
+.landing{
+    background-image:url("images/Landing\ Page\ \(1\).png");
+    height: 100vh;
+    background-position: center center;
+    position: relative;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.about_me{
+    background-color: rgb(111,58,88,32%);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+
+.nav__links{
+    float: right;
+    list-style: none;
+    margin-top: 20px;
+    padding-right: 90px;
+    flex: 1;
+}
+
+.nav__links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a{
+    color: brown;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: 14px;
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover{
+    background: white;
+    color: brown;
+}
+
+.linkedin{
+    font-size: 20px;
+    padding-left: 30%;
+    display: inline-block;
+    position: relative;
+    padding-top:5%;
+    color: darkblue;
+}
+.mail{
+    font-size: 20px;
+    padding-left: 10%;
+    display: inline-block;
+    position: relative;
+    padding-top:5%;
+    color: darkblue;
+}
+
+.about_me h1{
+    font-family: 'Lora', sans-serif;
+    font-size: 35px;
+    display: inline-block;
+    padding-left: 10%;
+    padding-top: 11%;
+    position: relative;
+    
+}
+
+.about_me p{
+    font-family: 'Lora', sans-serif;
+    font-size: 20px;
+    padding-left: 10%;
+    display: inline-block;
+    padding-right: 50%;
+    position: relative;  
+    
+}
+
+.about_me img{
+    width: 475px;
+    height: 475px;
+    padding-top:10% ;
+    padding-left: 60%;
+    padding-right: 10%;
+    vertical-align: top;
+    position: absolute;
+}
+.womenincs{
+    background-color: rgb(111,58,88,32%);
+    background-size: cover;
+}
+
+.womenincs img{
+    background-color: rgb(188, 160, 176);
+    background-size: cover;
+    width: 700px;
+    height: 400px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    vertical-align: top;
+    position: absolute;
+    margin: 0%;
+    padding-left: 8%;
+}
+
+
+
+.womenincs h1{
+    font-family: 'Lora', sans-serif;
+    display: inline-block;
+    padding-top:10%;
+    padding-left:57%;
+    font-size: 35px;
+    position: relative;
+
+}
+
+.womenincs p{
+    font-family: 'Lora', sans-serif;
+    display: inline-block;
+    font-size: 20px;
+    padding-left:58%;
+    position: relative;
+    padding-right: 2%;
+
+}
+
+.vex-u-link{
+    display: inline-block;
+    position: relative;
+    padding-top: 5%;
+    font-size: 20px;
+    padding-left: 60%;
+    color: rgb(51,29,78);
+}
+
+.awics{
+    display: inline-block;
+    position: absolute;
+    font-size: 20px;
+    padding-top: 9%;
+    padding-left: 70%;
+    color: rgb(51,29,78);
+
+}
+
+.robotics{
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    padding-left: 15%;
+    color: rgb(51,29,78);
+}
+
+/* end of home page */
+
+/* qualifications page */
+
+.qualifications{
+    background-image:url("images/mountain2.jpg");
+    background-color: rgb(188, 160, 176);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    position: relative;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.nav-area{
+    float: center;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.nav-area li{
+    display: inline-block;
+    padding: 0px 20px;
+
+}
+
+.nav-area li a{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: 15px;
+    transition: all 0.3s ease 0s;
+
+}
+
+.nav-area li a:hover{
+    background:#fff;
+    color:brown;
+
+}
+
+.qualifications-text{
+    position: absolute;
+    width: 45%;
+    padding: auto;
+    background-color: #1F2124;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+.qualifications-text h1{
+    color:rgb(111,58,88);
+    font-size: 36px;
+    padding-left: 15%;
+    position: relative;
+    box-sizing: border-box;
+    margin-bottom: 5%;
+    padding-top:10%;
+    
+}
+
+.qualifications-text p{
+    padding-left: 15%;
+    color: white;
+    position: relative;
+    padding-right: 10%;
+    padding-bottom: 10%;
+
+}
+
+.qual embed{
+    width:600px;
+    height: 626px;
+    position: relative;
+    padding-left: 58%;
+    padding-top: 5%;
+    vertical-align: top;
+    position: absolute;
+    margin-top: 0%;
+    padding-bottom: 5%;
+}
+
+.first-text{
+    padding-top: 5%;
+    padding-bottom: 0%;
+    padding-left: 45%;
+    color: white;
+}
+
+/* end of qualifications */
+
+/* start of portfolio */
+
+.beginning-portfolio{
+    background-image:url("images/mountain2.jpg");
+    background-size: cover;
+    min-width: 100%;
+    max-height: 100%;
+    
+}
+/* 
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+} */
+.portfolio{
+    position: relative;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1000px;
+    justify-content: space-between;
+    display: flex;
+    padding-left: 20%;
+
+
+}
+
+.container .box{
+    position: relative;
+    max-width: 450px;
+    background: rgb(204,194,220,80%);
+    margin: 10px;
+    padding: 15px ;
+    display: flex;
+}
+
+.container .box .port-img{
+    max-width: 150px;
+    flex: 0 0 150px;
+}
+
+.container .box .port-img img{
+    max-width: 100%;
+}
+
+.container .box .content{
+    margin-left: 20px;
+    color: rgb(51,29,78);
+}
+
+/* @media (max-width:991px){
+    .container{
+        flex-direction: column;
+    }
+}
+
+@media (max-width:768px){
+    .container{
+        flex-direction: column;
+    }
+
+    .container .box{
+        flex-direction: column;
+        max-width: 350px;
+    }
+
+    .container .port-img{
+        max-width: 350px;
+    }
+
+    .container .box .content{
+        margin-left: 20px;
+    }
+} */
+
+
+
+/* start of services portion */
+
+.holding{
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.service{
+    background-image:url("images/mountain2.jpg");
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+    
+}
+
+.service h1{
+    padding-bottom: 30px;
+    color: white;
+    font-family: 'Lora';
+}
+
+.service-conL{
+    flex:1;
+    background: rgb(111,58,88,5%);
+    color: white;
+    padding: 30px;
+    font-size: 12px;
+    font-family: 'Lora';
+    border-radius: 25px 30px 40px 20px;
+    margin: 15px;
+}
+
+.holding .img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-left: 100px;
+}
+
+.service-conM{
+    flex: 1;
+    background: rgb(111,58,88,5%);;
+    padding: 30px;
+    font-size: 12px;
+    margin: 15px;
+    font-family: 'Lora';
+    border-radius: 25px 30px 40px 20px;
+    padding-top: 20%;
+}
+.service-conR{
+    flex: 1;
+    background: rgb(111,58,88,5%);;
+    color: white;
+    padding: 30px;
+    font-size: 12px;
+    margin: 15px;
+    font-family: 'Lora';
+    border-radius: 25px 30px 40px 20px;
+
+}
+
+.holding a{
+    font-size: 20px;
+    text-align: center;
+    padding-left: 35%;
+    color: white;
+}
+
+.holding p{
+    padding-bottom: 30px;
+    text-align: center;
+    color: white;
+}
+.holding img{
+    padding-bottom: 30px;
+}
+
+
+
